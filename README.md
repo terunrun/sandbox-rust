@@ -79,4 +79,5 @@ $ cargo build
 ```
 
 ## 参考サイト
-[Rust を始めるための資料集](https://blog-dry.com/entry/2021/01/23/141936)
+[Rust を始めるための資料集](https://blog-dry.com/entry/2021/01/23/141936)  
+[Tour of Rust](https://tourofrust.com/)
