@@ -78,6 +78,14 @@ drwxr-xr-x@ 5 terunrun  staff  160  1 25 22:56 target
 $ cargo build
 ```
 
+# Cargoを使わずにビルド＆実行
+```sh
+# 実行ファイルを作成
+$ rustc main.rs
+# 実行
+$ ./main
+```
+
 ## 参考サイト
 [Rust を始めるための資料集](https://blog-dry.com/entry/2021/01/23/141936)  
 [Tour of Rust](https://tourofrust.com/)
