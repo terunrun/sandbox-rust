@@ -7,7 +7,7 @@ struct SeaCreature {
     arms: i32,
     legs: i32,
     weapon: String,
-} // なぜここには;がいらない？
+} // TODO:なぜここには;がいらない？
 
 // タプルライクな構造体
 struct Location(i32, i32);
@@ -24,7 +24,7 @@ fn main() {
         // ヒープに入るデータの参照アドレスが一つ入ります。
         // 明示的にどのフィールドかを明示する必要がある
         animal_type: "terunrun".to_string(),
-        name: String::from("terunrun"), // どちらで記述するのがいいか？
+        name: String::from("terunrun"), // TODO:どちらで記述するのがいいか？
         arms: 8,
         legs: 10,
         weapon: "coding".to_string(),
