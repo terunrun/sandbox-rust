@@ -7,3 +7,5 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# regexの0.2.1かそれ以上の互換性のあるバージョンを使う
+regex = "0.2.1"
